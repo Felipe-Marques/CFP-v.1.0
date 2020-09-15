@@ -18,3 +18,7 @@ Aluno: Felipe Marques.
 ## Imagem do Projeto
 
 ![Controle de Notas](public/CFP_App.png)
+
+## :octocat: Deploy:
+
+[Vercel](https://cfp-app.vercel.app/)
