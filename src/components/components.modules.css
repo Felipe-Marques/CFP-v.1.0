@@ -1,0 +1,85 @@
+/** Paleta de cores 
+despesa = rgb(240,161,168);
+receita = rgb(161, 240,220);
+botões = rgb(38,166,154);
+despesaText = rgb(194,62,46);
+receitaText = rgb(23,160,133);
+**/
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+h3 {
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(11, 161, 167);
+  margin-bottom: 40px;
+}
+
+.receita {
+  color: rgb(23, 160, 133);
+}
+.despesa {
+  color: rgb(209, 27, 27);
+}
+
+.noPadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.noMargin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.textButton {
+  font-size: 10px;
+}
+
+.show {
+  display: block !important;
+}
+/** # INICIO - STYLE MODAL **/
+.modal {
+  padding: 10px;
+  max-width: 500px;
+  height: auto;
+  max-height: 80%;
+  overflow-y: hidden;
+}
+
+.modal-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal-content {
+  border: 1px solid gray;
+  padding: 20px !important;
+}
+
+.modal-success {
+  padding: 20px;
+  border: hidden;
+}
+
+.tipoLancamento {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.modal-close {
+  color: white !important;
+}
+/** # FIM - STYLE MODAL **/
