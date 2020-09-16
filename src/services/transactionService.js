@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://192.168.1.180:8080/api/transaction';
+const baseURL = 'https://cfp-backend.herokuapp.com/api/transaction';
 
 const getAll = (currentPeriod, searchByDescription) => {
   return axios.get(
